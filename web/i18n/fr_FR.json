@@ -1,0 +1,6 @@
+{
+    "title": "TestAngularDart",
+    "mainScope": "Salut, je suis le Scope principal",
+    "mainScopeButton": "Appuyez ici pour mettre la valeur 42 dans les components 1 et 2",
+    "andTheMap": "Et la map:"
+  }
