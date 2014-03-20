@@ -1,6 +1,0 @@
-{
-    "title": "AngularDartTests",
-    "mainScope": "Hi, I'm the main scope",
-    "mainScopeButton": "Press here to put value 42 on components 1 and 2",
-    "andTheMap": "And the map:"
-  }
