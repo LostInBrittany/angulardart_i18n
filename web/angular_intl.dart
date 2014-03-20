@@ -27,6 +27,15 @@ class MainScope extends Object with I18nHelper {
     i18nPathPrefix = ".";
   }
 
+  /**
+   * With Dart2JS expressions {{ctrl.toto['titi']}} doesn't work
+   * We need to create getters
+   */
+  String get i18nTitle => i18n['title'];
+  String get i18nMainScope => i18n['mainScope'];
+  String get i18nMainScopeButton => i18n['mainScopeButton'];
+  String get i18nAndTheMap => i18n['andTheMap'];
+
   String value = "0";
 
   Map aMap = { 'a': 'b', 'c': 'd' };

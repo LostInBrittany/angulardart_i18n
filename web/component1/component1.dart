@@ -24,6 +24,15 @@ class Component1 extends Object with I18nHelper  {
        init();
   }
 
+  /**
+     * With Dart2JS expressions {{ctrl.toto['titi']}} doesn't work
+     * We need to create getters
+     */
+    String get i18nHi => i18n['hi'];
+    String get i18nValue => i18n['value'];
+    String get i18nButton => i18n['button'];
+    String get i18nMap => i18n['map'];
+
   @NgTwoWay('value')
   String value;
 
